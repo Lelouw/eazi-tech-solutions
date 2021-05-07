@@ -274,7 +274,8 @@ text-align: center;
     left:50%;
     transform: translateX(-50%);
     opacity: 0;
-    padding-left: 300px;
+    margin: auto;
+   /* padding-left: 300px;*/
 }
 .img-box ul li
 {
@@ -357,7 +358,8 @@ h2::after
 {
     border-radius: 0!important;
     border: none !important;
-    padding-left: 300px;
+    /*padding-left: 300px;*/
+    margin: auto
 
 }
 ::placeholder
