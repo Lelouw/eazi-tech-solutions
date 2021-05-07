@@ -197,9 +197,10 @@ h1::after
     display:block;
     height: 3px;
     width: 170px;
-    margin: 20px auto 5px; 
+    margin: 10px auto; 
 
 }
+
 
 .profile-pic
 {
@@ -211,7 +212,8 @@ h1::after
 opacity:1 ;
 display:block;
 position:relative;
-padding-left: 300px;
+/*padding-left: 300px;*/
+text-align: center;
 }
 
 .profile-pic .img-box img
@@ -242,6 +244,10 @@ padding-left: 300px;
 
 }
 
+#img{
+    margin: 20px;
+}
+
 #team .fa
 {
     color:#007bff!important;
@@ -253,6 +259,12 @@ padding-left: 300px;
     
 
 }
+
+.ceo{
+    text-align: center;
+    font-size: 20px;
+}
+
 .img-box ul
 {
     padding:15px 0;
@@ -262,7 +274,7 @@ padding-left: 300px;
     left:50%;
     transform: translateX(-50%);
     opacity: 0;
-    padding-left: 500px;
+    padding-left: 300px;
 }
 .img-box ul li
 {
@@ -307,16 +319,22 @@ position:center;
     padding-top: 40px;
     padding-bottom: 40px;
     color:#777;
-    padding-left: 500px;
+    /*padding-left: 300px;*/
+    margin: auto;
+    
     
 }
 
-h2
+.contact-info{
+    margin: auto;
+}
+
+h2, h3
 {
-    text-align:center;
+    text-align: center;
     color:#555 !important;
    
-    margin: 20px auto 5px; 
+    margin: auto; 
     
     font-size: 2px;
     padding-left: 10px;
@@ -329,7 +347,7 @@ h2::after
     display:block;
     height: 3px;
     width: 170px;
-    margin: 20px auto 5px; 
+    margin: 10px auto; 
 
 }
 
@@ -339,7 +357,7 @@ h2::after
 {
     border-radius: 0!important;
     border: none !important;
-    padding-left: 500px;
+    padding-left: 300px;
 
 }
 ::placeholder
