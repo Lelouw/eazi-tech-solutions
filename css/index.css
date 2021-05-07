@@ -523,4 +523,6 @@ h6
     font-family:cursive;
 }
 
-
+body{
+    font-size: 16px !important;
+}
